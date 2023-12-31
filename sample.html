@@ -7,32 +7,20 @@
 <body>
 <p>salam</p>
 <script type="text/javascript">
-    function show() {
-        var x = tinput.value;
-        var y = start.value;
-        tinput.value = y;
-        start.value = x;
-    }
 
-    function prompt()
+    function openwebsite()
     {
-        var lis = ['blue', 'green', 'yellow'];
-        var newitm = prompt('input new');
-        lis[lis.length] = newitm;
-        for(ind = 0; ind < lis.length; ind++)
-        {
-            document.write('span style="color:' + lis[ind] + '">');
-            document.write( lis[ind] + '<br/>');
-            document.write('/span>');
-        }
+        window.resizeTo(100,100);
+        window.open('http://www.google.com','_blank');
     }
-
 </script>
+
 
 <input type="text" id="tinput" />
 <input type="text" id="start" />
-<input type="button"  id="click" onclick="show()" value="send it"/>
-<input type="button" id="prompt"   onclick="prompt()" value="Get Name"/>
+<input type="button"  id="click" onclick="show()" value="send it" />
+<input type="button" id="prompt"   onclick="prompt()" value="Get Name" />
+<input type="button" id="openweb" onclick="openwebsite()" value="open google" />
 
 </body>
 </html>
