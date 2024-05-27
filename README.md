@@ -1,2 +1,2 @@
-# HTML_CSS_Javascript
-Learning sample integration between HTML, CSS and Javascript
+# HTML_CSS
+Learning sample integration between HTML, CSS
